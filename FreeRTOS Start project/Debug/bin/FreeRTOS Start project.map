@@ -19,7 +19,7 @@ Discarded input sections
  .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
  .text          0x00000000        0x0 ..\obj\main.o
  .data          0x00000000        0x0 ..\obj\main.o
- .bss           0x00000000        0x4 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
  .text          0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
  .data          0x00000000       0x10 ..\obj\stm32f4xx_rcc.o
  .bss           0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
@@ -789,31 +789,31 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm
 END GROUP
 OUTPUT(FreeRTOS Start project.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x4ba9
+.debug_info     0x00000000     0x4b93
  .debug_info    0x00000000       0xed ..\obj\startup_stm32f4xx.o
- .debug_info    0x000000ed      0x457 ..\obj\main.o
- .debug_info    0x00000544      0xc21 ..\obj\stm32f4xx_rcc.o
- .debug_info    0x00001165      0x7e8 ..\obj\timers.o
- .debug_info    0x0000194d     0x128f ..\obj\tasks.o
- .debug_info    0x00002bdc      0x5d6 ..\obj\stm32f4xx_gpio.o
- .debug_info    0x000031b2      0x2ae ..\obj\list.o
- .debug_info    0x00003460      0x566 ..\obj\system_stm32f4xx.o
- .debug_info    0x000039c6      0xbc4 ..\obj\queue.o
- .debug_info    0x0000458a      0x337 ..\obj\port.o
- .debug_info    0x000048c1      0x2e8 ..\obj\heap_2.o
+ .debug_info    0x000000ed      0x441 ..\obj\main.o
+ .debug_info    0x0000052e      0xc21 ..\obj\stm32f4xx_rcc.o
+ .debug_info    0x0000114f      0x7e8 ..\obj\timers.o
+ .debug_info    0x00001937     0x128f ..\obj\tasks.o
+ .debug_info    0x00002bc6      0x5d6 ..\obj\stm32f4xx_gpio.o
+ .debug_info    0x0000319c      0x2ae ..\obj\list.o
+ .debug_info    0x0000344a      0x566 ..\obj\system_stm32f4xx.o
+ .debug_info    0x000039b0      0xbc4 ..\obj\queue.o
+ .debug_info    0x00004574      0x337 ..\obj\port.o
+ .debug_info    0x000048ab      0x2e8 ..\obj\heap_2.o
 
-.debug_abbrev   0x00000000     0x1121
+.debug_abbrev   0x00000000     0x111f
  .debug_abbrev  0x00000000       0xb0 ..\obj\startup_stm32f4xx.o
- .debug_abbrev  0x000000b0      0x1b2 ..\obj\main.o
- .debug_abbrev  0x00000262      0x1e3 ..\obj\stm32f4xx_rcc.o
- .debug_abbrev  0x00000445      0x19e ..\obj\timers.o
- .debug_abbrev  0x000005e3      0x296 ..\obj\tasks.o
- .debug_abbrev  0x00000879      0x1a3 ..\obj\stm32f4xx_gpio.o
- .debug_abbrev  0x00000a1c       0xd6 ..\obj\list.o
- .debug_abbrev  0x00000af2      0x136 ..\obj\system_stm32f4xx.o
- .debug_abbrev  0x00000c28      0x1c9 ..\obj\queue.o
- .debug_abbrev  0x00000df1      0x1ac ..\obj\port.o
- .debug_abbrev  0x00000f9d      0x184 ..\obj\heap_2.o
+ .debug_abbrev  0x000000b0      0x1b0 ..\obj\main.o
+ .debug_abbrev  0x00000260      0x1e3 ..\obj\stm32f4xx_rcc.o
+ .debug_abbrev  0x00000443      0x19e ..\obj\timers.o
+ .debug_abbrev  0x000005e1      0x296 ..\obj\tasks.o
+ .debug_abbrev  0x00000877      0x1a3 ..\obj\stm32f4xx_gpio.o
+ .debug_abbrev  0x00000a1a       0xd6 ..\obj\list.o
+ .debug_abbrev  0x00000af0      0x136 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x00000c26      0x1c9 ..\obj\queue.o
+ .debug_abbrev  0x00000def      0x1ac ..\obj\port.o
+ .debug_abbrev  0x00000f9b      0x184 ..\obj\heap_2.o
 
 .debug_aranges  0x00000000      0x6e0
  .debug_aranges
@@ -865,28 +865,28 @@ OUTPUT(FreeRTOS Start project.elf elf32-littlearm)
  .debug_line    0x0000243f      0x32e ..\obj\port.o
  .debug_line    0x0000276d      0x27f ..\obj\heap_2.o
 
-.debug_str      0x00000000     0x25b1
+.debug_str      0x00000000     0x25ac
  .debug_str     0x00000000      0x153 ..\obj\startup_stm32f4xx.o
                                 0x165 (size before relaxing)
- .debug_str     0x00000153      0x3ac ..\obj\main.o
-                                0x4a4 (size before relaxing)
- .debug_str     0x000004ff      0x6a8 ..\obj\stm32f4xx_rcc.o
+ .debug_str     0x00000153      0x3a7 ..\obj\main.o
+                                0x49f (size before relaxing)
+ .debug_str     0x000004fa      0x6a8 ..\obj\stm32f4xx_rcc.o
                                 0x844 (size before relaxing)
- .debug_str     0x00000ba7      0x484 ..\obj\timers.o
+ .debug_str     0x00000ba2      0x484 ..\obj\timers.o
                                 0x660 (size before relaxing)
- .debug_str     0x0000102b      0x9c1 ..\obj\tasks.o
+ .debug_str     0x00001026      0x9c1 ..\obj\tasks.o
                                 0xc61 (size before relaxing)
- .debug_str     0x000019ec      0x19e ..\obj\stm32f4xx_gpio.o
+ .debug_str     0x000019e7      0x19e ..\obj\stm32f4xx_gpio.o
                                 0x497 (size before relaxing)
- .debug_str     0x00001b8a       0xc7 ..\obj\list.o
+ .debug_str     0x00001b85       0xc7 ..\obj\list.o
                                 0x2c8 (size before relaxing)
- .debug_str     0x00001c51      0x113 ..\obj\system_stm32f4xx.o
+ .debug_str     0x00001c4c      0x113 ..\obj\system_stm32f4xx.o
                                 0x39e (size before relaxing)
- .debug_str     0x00001d64      0x473 ..\obj\queue.o
+ .debug_str     0x00001d5f      0x473 ..\obj\queue.o
                                 0x756 (size before relaxing)
- .debug_str     0x000021d7      0x259 ..\obj\port.o
+ .debug_str     0x000021d2      0x259 ..\obj\port.o
                                 0x417 (size before relaxing)
- .debug_str     0x00002430      0x181 ..\obj\heap_2.o
+ .debug_str     0x0000242b      0x181 ..\obj\heap_2.o
                                 0x31b (size before relaxing)
 
 .comment        0x00000000       0x70

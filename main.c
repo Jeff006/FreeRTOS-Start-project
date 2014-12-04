@@ -38,7 +38,6 @@ void vStartLEDFlashTasks( unsigned portBASE_TYPE uxPriority );
 
 int main(void)
 {
-	static uint32_t Test;
 	SystemInit();
 	LED_Init();
 
